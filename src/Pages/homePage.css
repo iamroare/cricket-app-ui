@@ -1,0 +1,124 @@
+.home-page {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .left-column {
+    width: 48%;
+  }
+  
+  .right-column {
+    width: 48%;
+  }
+  
+  .box {
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+  
+  .box h3 {
+    margin-bottom: 10px;
+  }
+  
+  .current-batting {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .batter-box {
+    width: 48%;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .batter-box h4 {
+    margin-bottom: 8px;
+    font-size: 1.2rem;
+  }
+  
+  .batter-box p {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin: 5px 0;
+  }
+  
+
+
+  /* Box B: Action Panel */
+.box.b {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.box.b h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.run-buttons, .extras-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.run-buttons button, .extras-buttons button {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  width: 80px;
+  height: 40px;
+}
+
+.run-buttons button:hover, .extras-buttons button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.extras-buttons button.selected {
+  background-color: #f44336;
+  color: white;
+}
+
+.new-ball-button {
+  background-color: #2196F3;
+  color: white;
+  font-size: 1.2rem;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.new-ball-button:hover {
+  background-color: #0b7dda;
+}
+
+.run-buttons button:focus, .extras-buttons button:focus {
+  outline: none;
+  border: 1px solid #4CAF50;
+}
